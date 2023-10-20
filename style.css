@@ -1,0 +1,80 @@
+html{
+    margin: 0;
+}
+header{
+    color: #B6FFFA;
+    background-color: #687EFF;
+    margin: 0;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    font-family: 'Tilt Neon', sans-serif;
+    margin: 0;
+}
+footer{
+    color: #B6FFFA;
+    background-color: #687EFF;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+    font-weight: lighter;
+}
+h2{
+    font-family: 'Martel', serif;
+    text-align: center;
+}
+ul{
+    list-style-type: none;    
+}
+hr{
+    margin: 5%;
+}
+.profile{
+    display: block;
+    width: 30%;
+    margin: auto; 
+    margin-top: 50px;
+    text-align: center;
+}
+.profile img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+.skills{
+    font-size: larger;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.container img{
+    width: 50%;
+}
+.right_part{
+    text-align: left;
+}
+.left_part{
+    text-align: right;
+}
+
+.contact{
+    display: block;
+    text-align: center;
+}
+
+/*https://colorhunt.co/palette/b6fffa98e4ff80b3ff687eff*/
