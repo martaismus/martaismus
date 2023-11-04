@@ -2,8 +2,8 @@ html{
     margin: 0;
 }
 header{
-    color: #B6FFFA;
-    background-color: #687EFF;
+    color: #FFB4B4;
+    background-color: #B2A4FF;
     margin: 0;
     display: flex;
     padding-left: 10%;
@@ -17,19 +17,19 @@ body{
     margin: 0;
 }
 footer{
-    color: #B6FFFA;
-    background-color: #687EFF;
+    color: #FFB4B4;
+    background-color: #B2A4FF;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 h1{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Advent Pro', sans-serif;
     font-size: 5rem;
     font-weight: lighter;
 }
 h2{
-    font-family: 'Martel', serif;
+    font-family: 'Advent Pro', sans-serif;
     text-align: center;
 }
 ul{
@@ -67,9 +67,11 @@ hr{
 }
 .right_part{
     text-align: left;
+    font-size: 2rem;
 }
 .left_part{
     text-align: right;
+    font-size: 2rem;
 }
 
 .contact{
@@ -77,4 +79,8 @@ hr{
     text-align: center;
 }
 
-/*https://colorhunt.co/palette/b6fffa98e4ff80b3ff687eff*/
+/*
+https://colorhunt.co/palette/b2a4ffffb4b4ffdeb4fdf7c3
+https://colorhunt.co/palette/b983ff94b3fd94daff99feff
+https://colorhunt.co/palette/280b4561105ec84771ffe98a
+*/
