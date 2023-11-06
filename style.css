@@ -73,13 +73,15 @@ hr{
 .container img{
     width: 50%;
 }
-.right_part{
-    text-align: left;
-    font-size: 2rem;
+.tile{
+    font-size: 4rem;
+
 }
-.left_part{
+.right{
+    text-align: left;
+}
+.left{
     text-align: right;
-    font-size: 2rem;
 }
 
 .contact{
