@@ -16,23 +16,15 @@ body{
     font-family: 'Tilt Neon', sans-serif;
     margin: 0;
 }
-footer{
-    background-color: #B2A4FF;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-footer img{
-    width: 20px;
-}
-footer a{
-    color: black;
+a{
     text-decoration: none;
+    color: inherit;
 }
 h1{
     font-family: 'Advent Pro', sans-serif;
     font-size: 5rem;
     font-weight: lighter;
+
 }
 h2{
     font-family: 'Advent Pro', sans-serif;
@@ -44,6 +36,7 @@ ul{
 hr{
     margin: 5%;
 }
+
 .profile{
     display: block;
     width: 30%;
@@ -84,11 +77,25 @@ hr{
     text-align: right;
 }
 
+
 .contact{
     display: block;
     text-align: center;
 }
 
+footer{
+    background-color: #B2A4FF;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+footer img{
+    width: 20px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
 
 /*
 https://colorhunt.co/palette/b2a4ffffb4b4ffdeb4fdf7c3
