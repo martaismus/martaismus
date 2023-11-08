@@ -1,0 +1,1 @@
+$(".tile").style.color = "black";
