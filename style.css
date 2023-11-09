@@ -115,12 +115,21 @@ footer a{
     .container{
         gap: 30px;
         grid-template-columns: 1fr;
-        justify-content: center;
-        align-items: center;
+        grid-template-rows: 1fr;
+
+        
     }
     .container img{
         visibility: hidden;
     }
+    .right{
+        grid-row: 1;
+        text-align: center;
+    }
+    .left{
+        text-align: center;
+    }
+    
 }
 
 
