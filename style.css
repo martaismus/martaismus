@@ -111,13 +111,27 @@ footer a{
     width: 200px;
 }
 
+@media (max-width: 5000px) {
+    .galery{
+        margin-left: 15%;
+        margin-right: 15%;
+
+    }
+    
+}
+
+@media (max-width: 1050px) {
+    .galery{
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+    
+}
 @media (max-width: 650px) {
     .container{
         gap: 30px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-
-        
     }
     .container img{
         visibility: hidden;
@@ -130,7 +144,24 @@ footer a{
         text-align: center;
     }
     
+    .galery{
+        grid-template-columns: 1fr 1fr;
+        
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
 }
+
+@media (max-width: 390px) {
+    .galery{
+        grid-template-columns: 1fr;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+}
+
 
 
 /*
