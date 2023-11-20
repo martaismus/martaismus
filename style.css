@@ -1,6 +1,7 @@
 html{
     margin: 0;
 }
+/*Shared header*/
 header{
     color: #FFE98A;
     background-color: #280B45;
@@ -37,6 +38,7 @@ hr{
     margin: 5%;
 }
 
+/*Main part1*/
 .profile{
     display: block;
     width: 30%;
@@ -49,7 +51,7 @@ hr{
     height: 40%;
     border-radius: 50%;
 }
-
+/*Main part2*/
 .skills{
     font-size: larger;
     font-weight: bold;
@@ -77,7 +79,7 @@ hr{
     text-align: right;
 }
 
-
+/*Main part3*/
 .contact{
     display: block;
     text-align: center;
@@ -98,6 +100,7 @@ footer a{
     text-decoration: none;
 }
 
+/*Galery formating*/
 .galery{
     display: grid;
     margin-left: 30%;
@@ -111,6 +114,8 @@ footer a{
     width: 200px;
 }
 
+
+/*Media querry*/
 @media (max-width: 5000px) {
     .galery{
         margin-left: 15%;
