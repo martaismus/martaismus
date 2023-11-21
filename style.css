@@ -116,14 +116,6 @@ footer a{
 
 
 /*Media querry*/
-@media (max-width: 5000px) {
-    .galery{
-        margin-left: 15%;
-        margin-right: 15%;
-
-    }
-    
-}
 
 @media (max-width: 1050px) {
     .galery{
