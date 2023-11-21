@@ -150,15 +150,24 @@ footer a{
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 420px) {
     .galery{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         margin-left: 0%;
         margin-right: 0%;
     }
     
 }
 
+@media (max-width: 380px) {
+    .galery{
+        grid-template-columns: 1fr;
+        margin-left: 25%;
+        margin-right: 25%;
+        align-items: center;
+    }
+    
+}
 
 
 /*
