@@ -103,8 +103,8 @@ footer a{
 /*Galery formating*/
 .galery{
     display: grid;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin: 0 auto;
+    width: min-content;
     padding-top: 5%;
     padding-bottom: 5%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -143,9 +143,6 @@ footer a{
     
     .galery{
         grid-template-columns: 1fr 1fr;
-        
-        margin-left: 5%;
-        margin-right: 5%;
         
     }
 }
