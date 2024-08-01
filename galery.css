@@ -1,0 +1,13 @@
+/*Galery formating*/
+.galery{
+    display: grid;
+    margin: 0 auto;
+    width: min-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.galery img{
+    width: 200px;
+}
