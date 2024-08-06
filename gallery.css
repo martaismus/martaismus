@@ -1,5 +1,5 @@
-/*Galery formating*/
-.galery{
+/*Gallery formating*/
+.gallery{
     display: grid;
     margin: 0 auto;
     width: min-content;
@@ -8,6 +8,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
 }
-.galery img{
+.gallery img{
     width: 200px;
 }
