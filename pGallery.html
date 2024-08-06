@@ -17,23 +17,29 @@
     <h1><a href="./index.html">Martaismus</a></h1>
 </header>
 <body>
-    <div class="gallery">
-        <img src="paintings/p_01.JPG">
-        <img src="paintings/p_02.JPG">
-        <img src="paintings/p_03.JPG">
-        <img src="paintings/p_04.JPG">
-        <img src="paintings/p_05.JPG">
-        <img src="paintings/p_06.JPG">
-        <img src="paintings/p_07.JPG">
-        <img src="paintings/p_08.JPG">
-        <img src="paintings/p_09.JPG">
-        <img src="paintings/p_10.JPG">
-        <img src="paintings/p_11.JPG">
-        <img src="paintings/p_12.JPG">
-        <img src="paintings/p_13.JPG">
-        <img src="paintings/p_14.JPG">
-        <img src="paintings/p_15.JPG">
+    <div class ="full-img" id="fullImgBox">
+         <img src="paintings/p_01.JPG" id="fullImg">
+         <span onclick="closeFullImg()">x</span>
     </div>
+    <div class="gallery">
+        <img src="paintings/p_01.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_02.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_03.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_04.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_05.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_06.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_07.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_08.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_09.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_10.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_11.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_12.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_13.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_14.JPG" onclick="openFullImg(this.src)">
+        <img src="paintings/p_15.JPG" onclick="openFullImg(this.src)">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="gallery.js" charset="UTF-8"></script>
 </body>
 <footer>
     <a href="https://www.instagram.com/martaismus/?hl=cs"><img src="img/insta.png"></a>
