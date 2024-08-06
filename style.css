@@ -103,6 +103,30 @@ footer a{
 }
 
 
+
+/*Media querry*/
+
+@media (max-width: 650px) {
+    .container{
+        gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .container img{
+        visibility: hidden;
+    }
+    .right{
+        grid-row: 1;
+        text-align: center;
+    }
+    .left{
+        text-align: center;
+    }
+
+}
+
+
+
 /*
 https://colorhunt.co/palette/b2a4ffffb4b4ffdeb4fdf7c3
 https://colorhunt.co/palette/b983ff94b3fd94daff99feff

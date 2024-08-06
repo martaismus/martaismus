@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Site</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./galery.css">
+    <link rel="stylesheet" href="./gallery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Martel&family=Tilt+Neon&display=swap" rel="stylesheet">
@@ -17,20 +17,26 @@
     <h1><a href="./index.html">Martaismus</a></h1>
 </header>
 <body>
-    <div class="galery">
-        <img src="tatoo/t_01.JPG">
-        <img src="tatoo/t_02.JPG">
-        <img src="tatoo/t_03.JPG">
-        <img src="tatoo/t_04.JPG">
-        <img src="tatoo/t_05.JPG">
-        <img src="tatoo/t_06.JPG">
-        <img src="tatoo/t_07.JPG">
-        <img src="tatoo/t_08.JPG">
-        <img src="tatoo/t_09.JPG">
-        <img src="tatoo/t_10.JPG">
-        <img src="tatoo/t_11.JPG">
-        <img src="tatoo/t_12.JPG">
+    <div class ="full-img"  id="fullImgBox">
+        <img src="tatoo/t_01.JPG" id="fullImg">
+        <span onclick="closeFullImg()">x</span>
+   </div>
+    <div class="gallery">
+        <img src="tatoo/t_01.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_02.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_03.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_04.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_05.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_06.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_07.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_08.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_09.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_10.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_11.JPG" onclick="openFullImg(this.src)">
+        <img src="tatoo/t_12.JPG" onclick="openFullImg(this.src)">
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="gallery.js" charset="UTF-8"></script>
 </body>
 <footer>
     <a href="https://www.instagram.com/martaismus/?hl=cs"><img src="img/insta.png"></a>
