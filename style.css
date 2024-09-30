@@ -2,10 +2,9 @@ html{
     margin: 0;
 }
 
-/*Shared header*/
 header{
-    color: #FFE98A;
-    background-color: #280B45;
+    color: #FFE98A; /*barva písma v hlavičce*/
+    background-color: #280B45;/*barva pozadí v hlavičce*/
     margin: 0;
     display: flex;
     padding-left: 10%;
@@ -89,7 +88,7 @@ hr{
 }
 
 footer{
-    background-color: #280B45;
+    background-color: #280B45;/*barva pozadí v hlavičce*/
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
