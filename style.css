@@ -54,32 +54,38 @@ hr{
 
 /*Main part2*/
 .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: larger;
     font-weight: bold;
     font-family: 'Advent Pro', sans-serif;
-}
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     gap: 150px;
-    align-items: center;
-    justify-content: center;
+
 }
-.container img{
-    width: 50%;
+.skills img{
+    width: 50vh;
 }
 .tile{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    overflow: hidden;
+    height: 15%;
+    width: 600px;
     font-size: 4rem;
     font-weight: lighter;
 }
-.right{
-    text-align: left;
-}
-.left{
-    text-align: right;
-}
 
+.tile.reverse {
+    flex-direction: row-reverse;
+}
+.tile:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
 /*Main part3*/
 .contact{
     display: block;
@@ -107,12 +113,12 @@ footer a{
 /*Media querry*/
 
 @media (max-width: 650px) {
-    .container{
+    .skills{
         gap: 30px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
-    .container img{
+    .skills img{
         visibility: hidden;
     }
     .right{
