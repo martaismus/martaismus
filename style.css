@@ -61,7 +61,7 @@ hr{
     font-size: larger;
     font-weight: bold;
     font-family: 'Advent Pro', sans-serif;
-    gap: 150px;
+    gap: 100px;
 
 }
 .skills img{
@@ -78,10 +78,13 @@ hr{
     font-size: 4rem;
     font-weight: lighter;
 }
-
-.tile.reverse {
+.tile p{
+    margin: 20px;
+}
+.tile p .reverse{
     flex-direction: row-reverse;
 }
+
 .tile:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -121,13 +124,8 @@ footer a{
     .skills img{
         visibility: hidden;
     }
-    .right{
-        grid-row: 1;
-        text-align: center;
-    }
-    .left{
-        text-align: center;
-    }
+
+    
 
 }
 
