@@ -5,56 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Site</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Martel&family=Tilt+Neon&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Martel&family=Tilt+Neon&family=Satisfy&family=Advent+Pro:wght@100&display=swap" rel="stylesheet">
+    <style>
+        /* Custom fonts */
+        .font-tilt { font-family: 'Tilt Neon', sans-serif; }
+        .font-advent { font-family: 'Advent Pro', sans-serif; }
+    </style>
 </head>
-<header>
-    <h1><a href="./index.html">Martaismus</a></h1>
-</header>
-<body>
-    <div class="profile">
-        <img src="./img/foto.jpg">
-        <h2>O mně</h2>
-        <p>
-            Jmenuji se Marta. <br>
-            Tetuju a maluju. Podívej se na moji práci níže.
-        </p> 
-    </div>
-    <hr>
-    <div class="skills">
-        <div class="container">
-            <div class="left tile">
-                <a href="./tGallery.html"><img src="./img/tattoo.jpg"></a>
-            </div>
-            <div class="right tile">
-                <a href="./tGallery.html">Tetování</a>    
+
+<body class="m-0 font-tilt">
+    <!-- Header Section -->
+    <header class="bg-[#280B45] text-[#FFE98A] flex justify-center items-center h-[30vh] px-[10%]">
+        <h1 class="text-5xl font-bold font-advent">
+            <a href="./index.html" class="text-inherit no-underline">Martaismus</a>
+        </h1>
+    </header>
+
+    <!-- Profile Section -->
+    <main class="text-center">
+        <section class="profile w-[30%] mx-auto mt-12">
+            <img src="./img/foto.jpg" alt="Profile Image" class="w-[40%] h-[40%] rounded-full mx-auto">
+            <h2 class="font-advent text-2xl mt-4">O mně</h2>
+            <p class="mt-4">Jmenuji se Marta. <br> Tetuju a maluju. Podívej se na moji práci níže.</p>
+        </section>
+
+        <!-- Divider -->
+        <hr class="my-12 mx-[5%]">
+
+        <!-- Skills Section -->
+        <section class="skills flex flex-col items-center text-lg font-bold font-advent gap-24 my-12">
+            <div class="tile w-[600px] flex flex-col items-center p-5 hover:bg-[#280B45] hover:text-[#FFE98A] transition duration-200 rounded-lg shadow hover:shadow-lg">
+                <a href="./tGallery.html" class="flex flex-col items-center">
+                    <img src="./img/tattoo.jpg" alt="Tattoo Image" class="w-[50vh] rounded-lg mb-4">
+                    <p class="text-4xl font-light">Tetování</p>
+                </a>
             </div>
             
-            <div class="left tile">
-                <a href="./pGallery.html">Malba</a>
+            <div class="tile w-[600px] flex flex-col items-center p-5 hover:bg-[#280B45] hover:text-[#FFE98A] transition duration-200 rounded-lg shadow hover:shadow-lg">
+                <a href="./pGallery.html" class="flex flex-col items-center">
+                    <img src="./img/painting.jpg" alt="Painting Image" class="w-[50vh] rounded-lg mb-4">
+                    <p class="text-4xl font-light">Malba</p>
+                </a>
             </div>
-            <div class="right tile">
-                <a href="./pGallery.html"><img src="./img/painting.jpg"></a>
-            </div>
-           
-        </div>
-    </div>
-    <hr>
-    <div class="contact">
-        <h2>Kontakt</h2>
-        <ul>
-            <li>telefon: +420 696 969 696</li>
-            <li>e-mail: <a href="mailto:martaismus@gmail.com"> martaismus@gmail.com</a></li> 
-        </ul>
-    </div>
+        </section>
+
+        <!-- Divider -->
+        <hr class="my-12 mx-[5%]">
+
+        <!-- Contact Section -->
+        <section class="contact mb-20">
+            <h2 class="font-advent text-2xl">Kontakt</h2>
+            <a href="mailto:martaismus@gmail.com" class="text-[#280B45] hover:text-[#FFE98A] transition-colors duration-200 block mt-2">martaismus@gmail.com</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#280B45] text-[#FFE98A] text-center py-10">
+        <a href="https://www.instagram.com/martaismus/?hl=cs">
+            <img src="img/insta.png" alt="Instagram" class="w-5 inline">
+        </a>
+    </footer>
+
+    <!-- jQuery and Custom Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="index.js" charset="UTF-8"></script>
 </body>
-<footer>
-    <a href="https://www.instagram.com/martaismus/?hl=cs"><img src="img/insta.png"></a>
-</footer>
 </html>
