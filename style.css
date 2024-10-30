@@ -54,37 +54,54 @@ hr{
 
 /*Main part2*/
 .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: larger;
     font-weight: bold;
     font-family: 'Advent Pro', sans-serif;
+    gap: 100px;
+
 }
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 150px;
-    align-items: center;
-    justify-content: center;
-}
-.container img{
-    width: 50%;
+.skills img{
+    width: 50vh;
+    border-radius: 10px;
+
 }
 .tile{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    overflow: hidden;
+    height: 15%;
+    width: 600px;
     font-size: 4rem;
     font-weight: lighter;
 }
-.right{
-    text-align: left;
-}
-.left{
-    text-align: right;
+.tile p{
+    margin: 10px;
 }
 
+
+.tile:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color:#280B45;
+    color: #FFE98A;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
 /*Main part3*/
 .contact{
     display: block;
     text-align: center;
     margin-bottom: 5%;
+}
+.contact a:hover{
+    transition: color 0.2s ease-in-out;
+    color:#FFE98A;
 }
 
 footer{
@@ -107,21 +124,16 @@ footer a{
 /*Media querry*/
 
 @media (max-width: 650px) {
-    .container{
+    .skills{
         gap: 30px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
-    .container img{
+    .skills img{
         visibility: hidden;
     }
-    .right{
-        grid-row: 1;
-        text-align: center;
-    }
-    .left{
-        text-align: center;
-    }
+
+    
 
 }
 
