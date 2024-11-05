@@ -126,13 +126,17 @@ footer a{
 @media (max-width: 650px) {
     .skills{
         gap: 30px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+
     }
     .skills img{
-        visibility: hidden;
+        display: none;
     }
-
+    .tile{
+        height: 15%;
+        width: 100%;
+        align-self: center;
+        font-size: 3rem;
+    }
     
 
 }
