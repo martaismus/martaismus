@@ -105,20 +105,25 @@ hr{
 }
 
 footer{
-    background-color: #280B45;/*barva pozadí v hlavičce*/
+    background-color: #280B45;/*barva pozadí v zápatí*/
     color: #FFE98A;
     text-align: center;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
 }
 footer img{
     width: 20px;
 }
 footer a{
-    color: black;
+    color:#FFE98A;
     text-decoration: none;
 }
-
+.brand{
+    margin: 5vh 0 0 0 ;
+}
 
 
 /*Media querry*/
