@@ -55,7 +55,6 @@ hr{
 /*Main part2*/
 .skills{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: larger;
@@ -83,9 +82,8 @@ hr{
 }
 .tile p{
     margin: 10px;
+
 }
-
-
 .tile:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -114,6 +112,8 @@ footer{
     display: flex;
     flex-direction: column;
 }
+/*https://www.flaticon.com/free-icon/tattoo-machine_477324*/
+/*https://www.flaticon.com/free-icon/brush_999791*/
 footer img{
     width: 20px;
 }
@@ -139,14 +139,4 @@ footer a{
         align-self: center;
         font-size: 3rem;
     }
-    
-
 }
-
-
-
-/*
-https://colorhunt.co/palette/b2a4ffffb4b4ffdeb4fdf7c3
-https://colorhunt.co/palette/b983ff94b3fd94daff99feff
-https://colorhunt.co/palette/280b4561105ec84771ffe98a
-*/
