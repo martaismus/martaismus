@@ -128,10 +128,16 @@ footer a{
 
 /*Media querry*/
 
+@media (max-width: 1500px){
+    .skills{
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 650px) {
     .skills{
         gap: 30px;
-
+        flex-direction: column;
     }
     .tile{
         height: 15%;
